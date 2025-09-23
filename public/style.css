@@ -8,8 +8,8 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #ceeed8;
   width: 1366px;
-  min-height: 653px;
   margin: 0 auto;
+  border: 1px solid white;
 }
 
 .navbar {
@@ -361,14 +361,6 @@ body {
   background: #e0e0e0;
   margin: 0 0px;
 }
-
-@media (min-height: 654px) {
-  .container {
-    height: 50dvh;
-    max-height: 700px;
-  }
-}
-
  
 .about-us {
   display: flex;
@@ -1997,4 +1989,37 @@ body {
     font-size: 22px;
   }
 }
+
+@media (min-height: 654px) {
+  .container,
+  .about-us,
+  .services,
+  .facilities-section,
+  .appointment-container,
+  .work-process,
+  .blog-section {
+    height: 65dvh;
+    max-height: 800px;
+  }
+  
+  .testimonial-container {
+    height: 35dvh;
+    max-height: 400px;
+  }
+
+  .newsletter {
+    height: 25dvh;
+    max-height: 400px;
+  }
+
+  .footer {
+    height: 35dvh;
+    max-height: 400px;
+  } 
+
+  .more-btn {
+    margin-top: 70px;
+  }
+}
+
 
