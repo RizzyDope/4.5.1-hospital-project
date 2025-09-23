@@ -17,6 +17,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 50px;
+  width: 100%;
   max-width: 1366px;
   margin: 0 auto;
   position: fixed;
