@@ -362,6 +362,13 @@ body {
   margin: 0 0px;
 }
 
+@media (min-height: 654px) {
+  .container {
+    height: 50dvh;
+    max-height: 700px;
+  }
+}
+
  
 .about-us {
   display: flex;
