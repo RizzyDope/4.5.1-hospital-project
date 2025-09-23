@@ -17,7 +17,8 @@ body {
   align-items: center;
   justify-content: center;
   height: 50px;
-  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
   position: fixed;
   top: 0;
   background: #D4F2F4;
@@ -2018,7 +2019,7 @@ body {
   } 
 
   .more-btn {
-    margin-top: 70px;
+    margin-top: 100px;
   }
 }
 
